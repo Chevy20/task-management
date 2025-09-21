@@ -1,30 +1,36 @@
-# Node.js / npm
+# -------------------------
+# Node / Package Managers
+# -------------------------
 node_modules/
-npm-debug.log
+npm-debug.log*
 yarn-error.log
-pnpm-debug.log*
-.pnpm-debug.log*
 package-lock.json 
 
-# Environment variables 
+# -------------------------
+# Environment / Secrets
+# -------------------------
 .env
 .env.local
 .env.development
 .env.production
-.env.*.local
 
-# NX / build outputs
+# NX-specific
 .nx/cache/
 .nx/workspace-data/
 dist/
 build/
 coverage/
-*.tgz
 tmp/
 temp/
-out-tsc
+out-tsc/
 
-# Logs and temp
+# Nx cache + workspace data (must stay ignored!)
+.nx/cache/
+.nx/workspace-data/
+
+# -------------------------
+# Logs / Temp
+# -------------------------
 *.log
 *.tmp
 *.pid
@@ -32,58 +38,60 @@ out-tsc
 *.gz
 testem.log
 
+# -------------------------
+# IDE / Editors
+# -------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.vscode/extensions.json
+.idea/
+*.iml
+*.sublime-*
+*.swp
+*.swo
+*.orig
+
+# -------------------------
 # OS-specific
+# -------------------------
 .DS_Store
 Thumbs.db
 ehthumbs.db
 
-# Editor/IDE
-.vscode/*                 # Ignore all VSCode configs…
-!.vscode/settings.json    # …but keep settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-# (extensions.json will still be ignored from below)
-.vscode/extensions.json   # Explicitly ignore extensions.json
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime*
-*.sublime-workspace
-*.swp
-*.swo
-
-# Database (local testing)
-*.db
-*.sqlite
-*.sqlite3
-*.sql
-
+# -------------------------
 # Angular
+# -------------------------
 .angular/
 *.ng-summary.json
 /.sass-cache
 /typings
 
+# -------------------------
 # NestJS
+# -------------------------
 src/**/*.js
 
-# Testing
+# -------------------------
+# Testing (Cypress/Jest/etc.)
+# -------------------------
 .jest-cache/
 .jest/
 cypress/downloads/
 cypress/videos/
 cypress/screenshots/
 
+# -------------------------
 # Misc
+# -------------------------
 *.bak
-*.orig
 *~
 /connect.lock
 /libpeerconnection.log
 
-# NX docs / meta
-.cursor/rules/nx-rules.mdc
-.github/instructions/nx.instructions.md
+# -------------------------
+# Nx Docs / Meta
+# -------------------------
+.cursor/
+.github/instructions/
