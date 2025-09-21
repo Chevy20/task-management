@@ -1,5 +1,5 @@
 {
-  "11768116124828596818": {
+  "7053892909715059513": {
     "targets": {
       "build": {
         "command": "webpack-cli build",
@@ -31,7 +31,7 @@
           ],
           "description": "Runs Webpack build",
           "help": {
-            "command": "npx webpack-cli build --help",
+            "command": "pnpm exec webpack-cli build --help",
             "example": {
               "options": {
                 "json": "stats.json"
@@ -58,7 +58,7 @@
           ],
           "description": "Starts Webpack dev server",
           "help": {
-            "command": "npx webpack-cli serve --help",
+            "command": "pnpm exec webpack-cli serve --help",
             "example": {
               "options": {
                 "args": [
@@ -85,7 +85,7 @@
           ],
           "description": "Starts Webpack dev server in production mode",
           "help": {
-            "command": "npx webpack-cli serve --help",
+            "command": "pnpm exec webpack-cli serve --help",
             "example": {
               "options": {
                 "args": [
@@ -118,7 +118,7 @@
         "dependsOn": [
           "build-deps"
         ],
-        "command": "npx nx watch --projects api --includeDependentProjects -- npx nx build-deps api"
+        "command": "pnpm exec nx watch --projects api --includeDependentProjects -- pnpm exec nx build-deps api"
       }
     },
     "metadata": {}

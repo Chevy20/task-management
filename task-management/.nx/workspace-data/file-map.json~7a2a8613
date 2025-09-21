@@ -37,100 +37,92 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".nx/cache/terminalOutputs/2423633314109080184",
-        "hash": "4639164364680529373"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
-      },
-      {
-        "file": ".nx/cache/terminalOutputs/3189921886140449588",
-        "hash": "248128153688439225"
-      },
-      {
-        "file": ".nx/workspace-data/source-maps.json",
-        "hash": "6532579455477035343"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "10770449096712831357"
-      },
-      {
-        "file": ".nx/cache/run.json",
-        "hash": "3865049056748714518"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "3720005345663473075"
-      },
-      {
         "file": ".vscode/launch.json",
         "hash": "18315815001409031257"
-      },
-      {
-        "file": ".nx/workspace-data/4463ff6d-8f09-4749-a997-f17518c34ca4.db-wal",
-        "hash": "769108052898493313"
-      },
-      {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "17528004046221083424"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "13247528117751079380"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "6870352021923392442"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": ".nx/workspace-data/eslint-2654242865465226088.hash",
-        "hash": "7701928393266263670"
       },
       {
         "file": ".nx/workspace-data/webpack-7566275343909617285.hash",
         "hash": "6070419106351121908"
       },
       {
-        "file": ".nx/workspace-data/file-map.json~7a2a8613",
-        "hash": "8152116069918732859"
+        "file": "pnpm-lock.yaml",
+        "hash": "13247528117751079380"
       },
       {
         "file": ".nx/workspace-data/jest-7930610538513362720.hash",
-        "hash": "14715691262445773799"
+        "hash": "13739261619174350870"
       },
       {
-        "file": ".nx/workspace-data/project-graph.json~2a9823f1",
-        "hash": "9441554217874103241"
+        "file": ".nx/workspace-data/eslint-2654242865465226088.hash",
+        "hash": "4711006781687471396"
       },
       {
-        "file": ".nx/workspace-data/project-graph.json",
-        "hash": "4284555956447098904"
+        "file": ".nx/cache/run.json",
+        "hash": "14245131722051172701"
       },
       {
-        "file": "nx.json",
-        "hash": "7550058764972778328"
+        "file": ".nx/cache/terminalOutputs/3189921886140449588",
+        "hash": "248128153688439225"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": "package.json",
+        "hash": "10058981125970841333"
       },
       {
         "file": ".vscode/extensions.json",
         "hash": "4637156562308165301"
       },
       {
+        "file": ".nx/cache/terminalOutputs/2423633314109080184",
+        "hash": "4639164364680529373"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "2748452191805736483"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "393815272298791769"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
-        "file": "package.json",
-        "hash": "10058981125970841333"
+        "file": "tsconfig.base.json",
+        "hash": "3720005345663473075"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7550058764972778328"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "10770449096712831357"
+      },
+      {
+        "file": ".nx/workspace-data/4463ff6d-8f09-4749-a997-f17518c34ca4.db-wal",
+        "hash": "13142120661590160537"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "6532579455477035343"
       }
     ],
     "projectFileMap": {
@@ -342,7 +334,7 @@
         },
         {
           "file": "apps/dashboard/src/app/app.routes.ts",
-          "hash": "6185150965714414910",
+          "hash": "5260837083692337489",
           "deps": [
             "npm:@angular/router"
           ]

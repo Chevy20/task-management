@@ -1,20 +1,20 @@
 {
   "run": {
-    "command": "nx test dashboard",
-    "startTime": "2025-09-21T20:41:55.851Z",
-    "endTime": "2025-09-21T20:42:00.889Z",
+    "command": "nx run dashboard:build --parallel",
+    "startTime": "2025-09-21T21:55:19.861Z",
+    "endTime": "2025-09-21T21:55:19.940Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "dashboard:test",
-      "target": "test",
+      "taskId": "dashboard:build:production",
+      "target": "build",
       "projectName": "dashboard",
-      "hash": "2253952888208563319",
-      "startTime": "2025-09-21T20:41:55.864Z",
-      "endTime": "2025-09-21T20:42:00.886Z",
+      "hash": "15969320907524049892",
+      "startTime": "2025-09-21T21:55:19.885Z",
+      "endTime": "2025-09-21T21:55:19.897Z",
       "params": "",
-      "cacheStatus": "cache-miss",
+      "cacheStatus": "local-cache-hit",
       "status": 0
     }
   ]

@@ -450,10 +450,6 @@
       "apps/dashboard/project.json",
       "nx/core/project-json"
     ],
-    "targets.serve.continuous": [
-      "apps/dashboard/project.json",
-      "nx/core/project-json"
-    ],
     "targets.serve.executor": [
       "apps/dashboard/project.json",
       "nx/core/project-json"
@@ -551,6 +547,10 @@
       "nx/core/project-json"
     ],
     "targets.serve-static.options.spa": [
+      "apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.port": [
       "apps/dashboard/project.json",
       "nx/core/project-json"
     ],

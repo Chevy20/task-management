@@ -21,7 +21,11 @@
             "input": "apps/dashboard/public"
           }
         ],
-        "styles": ["apps/dashboard/src/styles.css"]
+        "styles": [
+          "apps/dashboard/src/styles.css",
+          "node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+          "node_modules/ngx-toastr/toastr.css"
+        ]
       },
       "configurations": {
         "production": {
@@ -51,7 +55,6 @@
       "defaultConfiguration": "production"
     },
     "serve": {
-      "continuous": true,
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
@@ -85,7 +88,8 @@
       "executor": "@nx/web:file-server",
       "options": {
         "buildTarget": "dashboard:build",
-        "spa": true
+        "spa": true,
+        "port": 4300
       }
     }
   }
