@@ -37,145 +37,111 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".nx/cache/terminalOutputs/2423633314109080184",
-        "hash": "4639164364680529373"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
-      },
-      {
-        "file": ".nx/cache/terminalOutputs/3189921886140449588",
-        "hash": "248128153688439225"
-      },
-      {
-        "file": ".nx/workspace-data/source-maps.json",
-        "hash": "6532579455477035343"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "10770449096712831357"
-      },
-      {
-        "file": ".nx/cache/run.json",
-        "hash": "3865049056748714518"
-      },
-      {
         "file": "tsconfig.base.json",
         "hash": "3720005345663473075"
       },
       {
-        "file": ".vscode/launch.json",
-        "hash": "18315815001409031257"
-      },
-      {
-        "file": ".nx/workspace-data/4463ff6d-8f09-4749-a997-f17518c34ca4.db-wal",
-        "hash": "769108052898493313"
-      },
-      {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "17528004046221083424"
-      },
-      {
         "file": "pnpm-lock.yaml",
-        "hash": "13247528117751079380"
+        "hash": "18046442521250989906"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/16325224309911783983",
+        "hash": "7104562256932924464"
       },
       {
         "file": "jest.config.ts",
         "hash": "6870352021923392442"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": ".nx/workspace-data/eslint-2654242865465226088.hash",
-        "hash": "7701928393266263670"
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
       },
       {
         "file": ".nx/workspace-data/webpack-7566275343909617285.hash",
-        "hash": "6070419106351121908"
-      },
-      {
-        "file": ".nx/workspace-data/file-map.json~7a2a8613",
-        "hash": "8152116069918732859"
-      },
-      {
-        "file": ".nx/workspace-data/jest-7930610538513362720.hash",
-        "hash": "14715691262445773799"
-      },
-      {
-        "file": ".nx/workspace-data/project-graph.json~2a9823f1",
-        "hash": "9441554217874103241"
-      },
-      {
-        "file": ".nx/workspace-data/project-graph.json",
-        "hash": "4284555956447098904"
+        "hash": "6983065061472397655"
       },
       {
         "file": "nx.json",
         "hash": "7550058764972778328"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4637156562308165301"
+        "file": ".vscode/launch.json",
+        "hash": "18315815001409031257"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "10770449096712831357"
+      },
+      {
+        "file": ".nx/workspace-data/4463ff6d-8f09-4749-a997-f17518c34ca4.db-wal",
+        "hash": "773298741179711872"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/12688911315214150261",
+        "hash": "3002384805951486267"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/4076556005111738797",
+        "hash": "7611955548811769722"
+      },
+      {
+        "file": ".nx/workspace-data/eslint-2654242865465226088.hash",
+        "hash": "3207429649320262795"
+      },
+      {
+        "file": ".nx/workspace-data/jest-7930610538513362720.hash",
+        "hash": "3230970462807887344"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "package.json",
+        "hash": "11061504383969902589"
+      },
+      {
+        "file": ".nx/cache/run.json",
+        "hash": "15522845130105760710"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/16109891221039356310",
+        "hash": "5477129998985690072"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/2778993914105399879",
+        "hash": "12834574935787206987"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "12586277300916198880"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/12302375001469509193",
+        "hash": "15055592815019976869"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "3954565471405992108"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "5937280217436968824"
       },
       {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
-      },
-      {
-        "file": "package.json",
-        "hash": "10058981125970841333"
       }
     ],
     "projectFileMap": {
-      "auth": [
-        {
-          "file": "libs/auth/README.md",
-          "hash": "17993389933539474821"
-        },
-        {
-          "file": "libs/auth/eslint.config.mjs",
-          "hash": "2624537849564014525"
-        },
-        {
-          "file": "libs/auth/jest.config.ts",
-          "hash": "7787077749402200579"
-        },
-        {
-          "file": "libs/auth/project.json",
-          "hash": "1132177240048209231"
-        },
-        {
-          "file": "libs/auth/src/index.ts",
-          "hash": "5372805174801174427"
-        },
-        {
-          "file": "libs/auth/src/lib/auth.spec.ts",
-          "hash": "14026045505144020983"
-        },
-        {
-          "file": "libs/auth/src/lib/auth.ts",
-          "hash": "6890438946885032332"
-        },
-        {
-          "file": "libs/auth/tsconfig.json",
-          "hash": "12975668481162286788"
-        },
-        {
-          "file": "libs/auth/tsconfig.lib.json",
-          "hash": "3632393694954060084"
-        },
-        {
-          "file": "libs/auth/tsconfig.spec.json",
-          "hash": "6622138706846345436"
-        }
-      ],
       "data": [
         {
           "file": "libs/data/README.md",
@@ -311,8 +277,16 @@
           "hash": "4395250475089869511"
         },
         {
+          "file": "apps/dashboard/postcss.config.js",
+          "hash": "12275164670814361604",
+          "deps": [
+            "npm:tailwindcss",
+            "npm:autoprefixer"
+          ]
+        },
+        {
           "file": "apps/dashboard/project.json",
-          "hash": "8616847108329166124"
+          "hash": "16482676766568073248"
         },
         {
           "file": "apps/dashboard/public/favicon.ico",
@@ -338,11 +312,11 @@
         },
         {
           "file": "apps/dashboard/src/app/app.html",
-          "hash": "11987652264972370457"
+          "hash": "17816966185630879015"
         },
         {
           "file": "apps/dashboard/src/app/app.routes.ts",
-          "hash": "6185150965714414910",
+          "hash": "4168127608724609583",
           "deps": [
             "npm:@angular/router"
           ]
@@ -356,10 +330,18 @@
         },
         {
           "file": "apps/dashboard/src/app/app.ts",
-          "hash": "3039450182809222914",
+          "hash": "15854140098332429970",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/dashboard/src/app/demo/demo.component.ts",
+          "hash": "12635264375060699796",
+          "deps": [
+            "npm:@angular/core",
+            "npm:ngx-toastr"
           ]
         },
         {
@@ -383,7 +365,7 @@
         },
         {
           "file": "apps/dashboard/src/styles.css",
-          "hash": "5195668842064076916"
+          "hash": "10300294167529138159"
         },
         {
           "file": "apps/dashboard/src/test-setup.ts",
@@ -391,6 +373,10 @@
           "deps": [
             "npm:jest-preset-angular"
           ]
+        },
+        {
+          "file": "apps/dashboard/tailwind.config.js",
+          "hash": "15761672521730486203"
         },
         {
           "file": "apps/dashboard/tsconfig.app.json",
@@ -404,8 +390,50 @@
           "file": "apps/dashboard/tsconfig.spec.json",
           "hash": "5331518322626158299"
         }
+      ],
+      "auth": [
+        {
+          "file": "libs/auth/README.md",
+          "hash": "17993389933539474821"
+        },
+        {
+          "file": "libs/auth/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "libs/auth/jest.config.ts",
+          "hash": "7787077749402200579"
+        },
+        {
+          "file": "libs/auth/project.json",
+          "hash": "1132177240048209231"
+        },
+        {
+          "file": "libs/auth/src/index.ts",
+          "hash": "5372805174801174427"
+        },
+        {
+          "file": "libs/auth/src/lib/auth.spec.ts",
+          "hash": "14026045505144020983"
+        },
+        {
+          "file": "libs/auth/src/lib/auth.ts",
+          "hash": "6890438946885032332"
+        },
+        {
+          "file": "libs/auth/tsconfig.json",
+          "hash": "12975668481162286788"
+        },
+        {
+          "file": "libs/auth/tsconfig.lib.json",
+          "hash": "3632393694954060084"
+        },
+        {
+          "file": "libs/auth/tsconfig.spec.json",
+          "hash": "6622138706846345436"
+        }
       ]
     }
   },
-  "externalNodesHash": "10597486337895313796"
+  "externalNodesHash": "11260832699241540711"
 }

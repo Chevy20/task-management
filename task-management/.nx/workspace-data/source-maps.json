@@ -406,6 +406,10 @@
       "apps/dashboard/project.json",
       "nx/core/project-json"
     ],
+    "targets.build.options.scripts": [
+      "apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
     "targets.build.configurations.production": [
       "apps/dashboard/project.json",
       "nx/core/project-json"
