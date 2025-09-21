@@ -1,0 +1,21 @@
+- Generating browser application bundles (phase: setup)...
+[32m✔[39m Browser application bundle generation complete.
+[32m✔[39m Browser application bundle generation complete.
+- Copying assets...
+[32m✔[39m Copying assets complete.
+- Generating index html...
+[32m✔[39m Index html generation complete.
+[37m[0m[0m[39m
+[37m[0m[1mInitial chunk files[22m          [2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m[0m[39m
+[37m[0m[32mmain.e25aa4bd0b671d31.js[39m[37m     [2m | [22m[2mmain[22m         [2m | [22m[36m356.75 kB[39m[37m[2m | [22m               [36m95.53 kB[39m[37m[0m[39m
+[37m[0m[32mpolyfills.20323f47ff3c0e3b.js[39m[37m[2m | [22m[2mpolyfills[22m    [2m | [22m [36m34.84 kB[39m[37m[2m | [22m               [36m11.31 kB[39m[37m[0m[39m
+[37m[0m[32mstyles.f52b8521143c53a9.css[39m[37m  [2m | [22m[2mstyles[22m       [2m | [22m [36m12.63 kB[39m[37m[2m | [22m                [36m3.57 kB[39m[37m[0m[39m
+[37m[0m[32mruntime.98857a45583309e2.js[39m[37m  [2m | [22m[2mruntime[22m      [2m | [22m[36m896 bytes[39m[37m[2m | [22m              [36m513 bytes[39m[37m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                            [2m | [22m[1mInitial total[22m[2m | [22m[1m405.12 kB[22m[2m | [22m              [1m110.92 kB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2025-09-21T23:12:22.273Z[39m[37m[22m - Hash: [1m[37m9cc7606f0fb6464c[39m[37m[22m - Time: [1m[37m11532[39m[37m[22mms[0m[39m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:/Users/Matthew Cheverie/Desktop/coding-challenge/task-management/apps/dashboard/src/app/nx-welcome.ts-angular-inline--1.css exceeded maximum budget. Budget 4.00 kB was not met by 3.02 kB with a total of 7.03 kB.[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m

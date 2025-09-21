@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  --bg: 255 255 255;
+  --fg: 17 24 39;
+  background: rgb(var(--bg));
+  color: rgb(var(--fg));
+}
+:root.dark body {
+  --bg: 3 7 18;
+  --fg: 243 244 246;
+}
