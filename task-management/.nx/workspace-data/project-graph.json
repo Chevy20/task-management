@@ -126,6 +126,138 @@
         "implicitDependencies": []
       }
     },
+    "auth": {
+      "name": "auth",
+      "type": "lib",
+      "data": {
+        "root": "libs/auth",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "libs/auth",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.mjs",
+              "{workspaceRoot}/libs/auth/eslint.config.mjs",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "npx eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/libs/auth"
+            ],
+            "options": {
+              "jestConfig": "libs/auth/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "auth",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/auth/src",
+        "projectType": "library",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    },
+    "data": {
+      "name": "data",
+      "type": "lib",
+      "data": {
+        "root": "libs/data",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "libs/data",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.mjs",
+              "{workspaceRoot}/libs/data/eslint.config.mjs",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "npx eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/libs/data"
+            ],
+            "options": {
+              "jestConfig": "libs/data/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "data",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/data/src",
+        "projectType": "library",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    },
     "api": {
       "name": "api",
       "type": "app",
@@ -331,9 +463,11 @@
   "externalNodes": {},
   "dependencies": {
     "dashboard": [],
+    "auth": [],
+    "data": [],
     "api": []
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1758485687169
+  "computedAt": 1758486519040
 }

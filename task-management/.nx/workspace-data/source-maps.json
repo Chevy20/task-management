@@ -570,5 +570,233 @@
       "nx.json",
       "nx/target-defaults"
     ]
+  },
+  "libs/auth": {
+    "root": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "libs/auth/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "libs/auth/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/data": {
+    "root": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "libs/data/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "libs/data/project.json",
+      "nx/core/project-json"
+    ]
   }
 }
