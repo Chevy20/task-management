@@ -4,7 +4,10 @@
 node_modules/
 npm-debug.log*
 yarn-error.log
-package-lock.json 
+pnpm-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
 
 # -------------------------
 # Environment / Secrets
@@ -13,10 +16,14 @@ package-lock.json
 .env.local
 .env.development
 .env.production
+.env.*.local
+*.db
+*.sqlite*
+*.sql
 
-# NX-specific
-.nx/cache/
-.nx/workspace-data/
+# -------------------------
+# Nx / Build Outputs
+# -------------------------
 dist/
 build/
 coverage/
