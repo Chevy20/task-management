@@ -1,0 +1,64 @@
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json 
+
+# Environment variables 
+.env
+.env.local
+.env.development
+.env.production
+
+# NX-specific
+.nx/cache/
+.nx/workspace-data/
+dist/
+build/
+coverage/
+*.tgz
+
+# Logs and temp
+*.log
+*.tmp
+*.pid
+*.seed
+*.gz
+tmp/
+temp/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor/IDE
+.vscode/extensions.json  # Ignore personal; commit settings.json
+.idea/
+*.sublime*
+*.swp
+*.swo
+
+# Database (local testing)
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Angular
+.angular/
+*.ng-summary.json
+
+# NestJS
+src/**/*.js
+
+# Testing
+.jest-cache/
+cypress/downloads/
+cypress/videos/
+cypress/screenshots/
+
+# Misc
+*.bak
+*.orig
+*~
