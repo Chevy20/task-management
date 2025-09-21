@@ -2,35 +2,174 @@
   "version": "6.0",
   "nxVersion": "21.5.3",
   "pathMappings": {},
-  "nxJsonPlugins": [],
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps",
+        "serveStaticTargetName": "serve-static"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
   "fileMap": {
     "nonProjectFiles": [
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "package.json",
+        "hash": "8595925854860708912"
+      },
+      {
+        "file": "nx.json",
+        "hash": "5752990391278689941"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "15492116699465455814"
+      },
+      {
+        "file": ".nx/workspace-data/4463ff6d-8f09-4749-a997-f17518c34ca4.db-wal",
+        "hash": "5558816328605632291"
+      },
+      {
+        "file": ".nx/workspace-data/eslint-2654242865465226088.hash",
+        "hash": "5718052056319826956"
+      },
+      {
+        "file": ".nx/workspace-data/webpack-7566275343909617285.hash",
+        "hash": "7747828773655278526"
+      },
+      {
+        "file": ".nx/workspace-data/jest-7930610538513362720.hash",
+        "hash": "10558728602803507140"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "10770449096712831357"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "18315815001409031257"
+      },
       {
         "file": ".editorconfig",
         "hash": "5443105041930014821"
       },
       {
-        "file": ".gitignore",
-        "hash": "18435103667633526488"
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "11907421435880846524"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "3833545590435012078"
+        "file": ".nx/workspace-data/4463ff6d-8f09-4749-a997-f17518c34ca4.db-shm",
+        "hash": "7200082925252181525"
       },
       {
-        "file": "README.md",
-        "hash": "4221837995031662010"
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
       },
       {
-        "file": "nx.json",
-        "hash": "14977852485590650733"
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "10498632067670748240"
       },
       {
-        "file": "package.json",
-        "hash": "3852481814990880671"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".nx/workspace-data/nx_files.nxt",
+        "hash": "15462191101350137319"
       }
     ],
-    "projectFileMap": {}
+    "projectFileMap": {
+      "api": [
+        {
+          "file": "apps/api/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "apps/api/jest.config.ts",
+          "hash": "11236996806909307999"
+        },
+        {
+          "file": "apps/api/project.json",
+          "hash": "10317589711116731179"
+        },
+        {
+          "file": "apps/api/src/app/app.controller.spec.ts",
+          "hash": "7647647754668916054"
+        },
+        {
+          "file": "apps/api/src/app/app.controller.ts",
+          "hash": "15276891910009544695"
+        },
+        {
+          "file": "apps/api/src/app/app.module.ts",
+          "hash": "11673476679848632172"
+        },
+        {
+          "file": "apps/api/src/app/app.service.spec.ts",
+          "hash": "13111976464657524091"
+        },
+        {
+          "file": "apps/api/src/app/app.service.ts",
+          "hash": "9967902337593410053"
+        },
+        {
+          "file": "apps/api/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "150780270862474464"
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "11728618664080294556"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/api/tsconfig.spec.json",
+          "hash": "6622138706846345436"
+        },
+        {
+          "file": "apps/api/webpack.config.js",
+          "hash": "6365587258481063628"
+        }
+      ]
+    }
   },
   "externalNodesHash": "3244421341483603138"
 }
