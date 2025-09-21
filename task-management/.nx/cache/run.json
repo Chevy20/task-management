@@ -1,18 +1,18 @@
 {
   "run": {
-    "command": "nx test auth",
-    "startTime": "2025-09-21T20:27:58.894Z",
-    "endTime": "2025-09-21T20:28:01.610Z",
+    "command": "nx test dashboard",
+    "startTime": "2025-09-21T20:41:55.851Z",
+    "endTime": "2025-09-21T20:42:00.889Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "auth:test",
+      "taskId": "dashboard:test",
       "target": "test",
-      "projectName": "auth",
-      "hash": "2250547486867928898",
-      "startTime": "2025-09-21T20:27:58.906Z",
-      "endTime": "2025-09-21T20:28:01.607Z",
+      "projectName": "dashboard",
+      "hash": "2253952888208563319",
+      "startTime": "2025-09-21T20:41:55.864Z",
+      "endTime": "2025-09-21T20:42:00.886Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

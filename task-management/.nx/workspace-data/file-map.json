@@ -37,80 +37,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".nx/cache/run.json",
-        "hash": "2528413360786809049"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "10926538726195184633"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "6870352021923392442"
-      },
-      {
-        "file": ".nx/cache/terminalOutputs/15215313861022393860",
-        "hash": "3147418861046977152"
-      },
-      {
-        "file": "nx.json",
-        "hash": "7550058764972778328"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "10770449096712831357"
-      },
-      {
-        "file": ".nx/workspace-data/project-graph.json",
-        "hash": "9015259836066713645"
-      },
-      {
-        "file": "package.json",
-        "hash": "11004196750306789909"
-      },
-      {
-        "file": ".nx/cache/terminalOutputs/2250547486867928898",
-        "hash": "6313324577761008673"
-      },
-      {
-        "file": ".nx/workspace-data/source-maps.json",
-        "hash": "708911982988732730"
-      },
-      {
-        "file": ".nx/workspace-data/jest-7930610538513362720.hash",
-        "hash": "1124244682588691293"
-      },
-      {
-        "file": ".nx/workspace-data/4463ff6d-8f09-4749-a997-f17518c34ca4.db-wal",
-        "hash": "366555650279235488"
-      },
-      {
-        "file": ".nx/workspace-data/4463ff6d-8f09-4749-a997-f17518c34ca4.db-shm",
-        "hash": "6793409842458647860"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4637156562308165301"
+        "file": ".nx/cache/terminalOutputs/4364653416400816953",
+        "hash": "13570324669960808720"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "3720005345663473075"
       },
       {
-        "file": ".nx/workspace-data/webpack-7566275343909617285.hash",
-        "hash": "7747828773655278526"
+        "file": "eslint.config.mjs",
+        "hash": "10770449096712831357"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": ".nx/cache/terminalOutputs/5090481878785719796",
+        "hash": "17323894654234159642"
+      },
+      {
+        "file": ".nx/cache/run.json",
+        "hash": "31984264591085989"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "708911982988732730"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "8869317054503155501"
+      },
+      {
+        "file": ".nx/workspace-data/4463ff6d-8f09-4749-a997-f17518c34ca4.db-wal",
+        "hash": "8198358825738148348"
+      },
+      {
+        "file": ".nx/workspace-data/webpack-7566275343909617285.hash",
+        "hash": "7747828773655278526"
       },
       {
         "file": ".vscode/launch.json",
@@ -121,8 +89,40 @@
         "hash": "5407418692668764289"
       },
       {
+        "file": "nx.json",
+        "hash": "7550058764972778328"
+      },
+      {
+        "file": "package.json",
+        "hash": "16670903426631847100"
+      },
+      {
         "file": ".nx/workspace-data/eslint-2654242865465226088.hash",
-        "hash": "265493725955726490"
+        "hash": "6165541037367831449"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "14409781971806308265"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".nx/workspace-data/jest-7930610538513362720.hash",
+        "hash": "1124244682588691293"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/2253952888208563319",
+        "hash": "6906508423487023881"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       }
     ],
     "projectFileMap": {
