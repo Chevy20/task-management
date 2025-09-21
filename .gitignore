@@ -2,6 +2,8 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+pnpm-debug.log*
+.pnpm-debug.log*
 package-lock.json 
 
 # Environment variables 
@@ -9,14 +11,18 @@ package-lock.json
 .env.local
 .env.development
 .env.production
+.env.*.local
 
-# NX-specific
+# NX / build outputs
 .nx/cache/
 .nx/workspace-data/
 dist/
 build/
 coverage/
 *.tgz
+tmp/
+temp/
+out-tsc
 
 # Logs and temp
 *.log
@@ -24,8 +30,7 @@ coverage/
 *.pid
 *.seed
 *.gz
-tmp/
-temp/
+testem.log
 
 # OS-specific
 .DS_Store
@@ -33,9 +38,20 @@ Thumbs.db
 ehthumbs.db
 
 # Editor/IDE
-.vscode/extensions.json  # Ignore personal; commit settings.json
+.vscode/*                 # Ignore all VSCode configs…
+!.vscode/settings.json    # …but keep settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+# (extensions.json will still be ignored from below)
+.vscode/extensions.json   # Explicitly ignore extensions.json
 .idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
 *.sublime*
+*.sublime-workspace
 *.swp
 *.swo
 
@@ -48,12 +64,15 @@ ehthumbs.db
 # Angular
 .angular/
 *.ng-summary.json
+/.sass-cache
+/typings
 
 # NestJS
 src/**/*.js
 
 # Testing
 .jest-cache/
+.jest/
 cypress/downloads/
 cypress/videos/
 cypress/screenshots/
@@ -62,3 +81,9 @@ cypress/screenshots/
 *.bak
 *.orig
 *~
+/connect.lock
+/libpeerconnection.log
+
+# NX docs / meta
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
