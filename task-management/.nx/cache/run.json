@@ -1,18 +1,51 @@
 {
   "run": {
-    "command": "nx test dashboard",
-    "startTime": "2025-09-22T00:47:46.233Z",
-    "endTime": "2025-09-22T00:47:51.250Z",
+    "command": "nx run-many -t build test -p api dashboard",
+    "startTime": "2025-09-22T00:59:19.861Z",
+    "endTime": "2025-09-22T00:59:24.100Z",
     "inner": false
   },
   "tasks": [
     {
+      "taskId": "dashboard:build:production",
+      "target": "build",
+      "projectName": "dashboard",
+      "hash": "2700589245813974339",
+      "startTime": "2025-09-22T00:59:19.888Z",
+      "endTime": "2025-09-22T00:59:19.906Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
       "taskId": "dashboard:test",
       "target": "test",
       "projectName": "dashboard",
-      "hash": "9546255927431583035",
-      "startTime": "2025-09-22T00:47:46.256Z",
-      "endTime": "2025-09-22T00:47:51.247Z",
+      "hash": "11813873406972968105",
+      "startTime": "2025-09-22T00:59:19.888Z",
+      "endTime": "2025-09-22T00:59:19.915Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "api:build",
+      "target": "build",
+      "projectName": "api",
+      "hash": "468249112899243627",
+      "startTime": "2025-09-22T00:59:19.928Z",
+      "endTime": "2025-09-22T00:59:22.340Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "api:test",
+      "target": "test",
+      "projectName": "api",
+      "hash": "12736544957341690593",
+      "startTime": "2025-09-22T00:59:19.888Z",
+      "endTime": "2025-09-22T00:59:24.096Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
