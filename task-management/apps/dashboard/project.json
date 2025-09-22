@@ -69,10 +69,10 @@
     "lint": { "executor": "@nx/eslint:lint" },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": ["{workspaceRoot}/coverage/apps/dashboard"],
       "options": {
         "jestConfig": "apps/dashboard/jest.config.ts",
-        "tsConfig": "apps/dashboard/tsconfig.spec.json"
+        "passWithNoTests": false
       }
     },
     "serve-static": {

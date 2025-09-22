@@ -1,8 +1,14 @@
+/* eslint-disable */
 export default {
   displayName: 'dashboard',
-  preset: '../../jest.preset.js',
+  preset: '../../jest.preset.js', // keep Nx root preset
+  testEnvironment: 'jsdom',
+  roots: ['<rootDir>/src'],
+  testMatch: ['**/?(*.)+(spec|test).ts'],
+
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/dashboard',
+
+  // Let jest-preset-angular do the heavy lifting (handles TS, templates, etc.)
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
@@ -12,10 +18,10 @@ export default {
       },
     ],
   },
+
+  // Allow ESM modules (e.g., @angular/* .mjs) to be transformed
   transformIgnorePatterns: ['node_modules/(?!.*\\.mjs$)'],
-  snapshotSerializers: [
-    'jest-preset-angular/build/serializers/no-ng-attributes',
-    'jest-preset-angular/build/serializers/ng-snapshot',
-    'jest-preset-angular/build/serializers/html-comment',
-  ],
+
+  moduleFileExtensions: ['ts', 'html', 'js', 'json'],
+  coverageDirectory: '../../coverage/apps/dashboard',
 };
